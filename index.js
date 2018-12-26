@@ -6,6 +6,13 @@ class BoardMember {
   }
 
   veto() {
-    return `Hello, my name is ${this.name}`
+    return "No, I must disagree"
   }
+  approve() {
+    return "You can do that!"
+  }
+  doCharity() {
+    return "I like to help people."
+  }
+
 }
