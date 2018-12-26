@@ -4,7 +4,6 @@ class BoardMember {
     this.homeState = homeState;
     this.training = training;
   }
-
   veto() {
     return "No, I must disagree"
   }
@@ -16,8 +15,8 @@ class BoardMember {
   }
 releasePressStatement() {
   return "You will see great things from Scuber."
-}
+  }
 sayHi() {
   return "Hi, my name is ${this.name}. I am from ${this.homestate}, and I was trained in ${this.training}."
-}
+  }
 }
